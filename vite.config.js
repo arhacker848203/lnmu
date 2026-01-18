@@ -16,7 +16,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://lnmudb.onrender.com",
+        target: "lnmuv2-production.up.railway.app",
         changeOrigin: true,
         rewrite: p => p.replace(/^\/api/, "")
       },
