@@ -16,7 +16,8 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://lnmuv2-production.up.railway.app/",
+        target: "https://lnmuv2-production.up.railway.app
+          ",
         changeOrigin: true,
         rewrite: p => p.replace(/^\/api/, "")
       },
