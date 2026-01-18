@@ -4,7 +4,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://lnmudb.onrender.com/:path*"
+      "destination": "https://lnmuv2.onrender.com/:path*"
     },
     {
       "source": "/images/:path*",
