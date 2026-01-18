@@ -4,7 +4,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://lnmuv2.onrender.com/:path*"
+      "destination": "https://lnmuv2-production.up.railway.app/:path*"
     },
     {
       "source": "/images/:path*",
